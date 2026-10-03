@@ -10,7 +10,7 @@ int main() {
 for(
 int t = 0; 
 t <= 100; 
-t += 2)
+t = t + 2)
 
 
 {
@@ -23,7 +23,7 @@ int d = 1;
 while (d <= 99) 
 {
 std::cout << d << "\n";
-d += 2;  
+d = d + 2;  
 }
 
 
